@@ -8,7 +8,7 @@ body {
     /* background-image: url(black\ hoodie1.jpg);
     background-repeat: no-repeat;
     background-size: cover; */
-    font-family: Arial, Helvetica, sans-serif;
+    /* font-family: Arial, Helvetica, sans-serif; */
 }
 
 .container {
@@ -32,7 +32,7 @@ body {
 .image img {
 
     background-size: cover;
-    width: 2010px;
+    width: 1340px;
 
 }
 
@@ -82,8 +82,9 @@ body {
 }
 .content-2 h5{
     color: white;
-    font-size: 25px;
-    text-transform: capitalize;  
+    font-size: 20px;
+    text-transform: capitalize; 
+    padding-top: 20px; 
 }
 .content-2 h4{
     color: white;
@@ -118,7 +119,7 @@ button {
     font-size: 24px;
 }
 .services p{
-    font-size: 19px
+    font-size: 13px
 }
 .creative{
     display: flex;
