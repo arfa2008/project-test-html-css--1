@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: hsl(0deg 0% 10.98%);
+    /* background-image: url(black\ hoodie1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center;
+    align-items: center; */
+    width: 100%;
+}
+
+.content {
+    color: black;
+    position: absolute;
+    top: 32%;
+    left: 6%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.image img {
+
+    background-size: cover;
+    width: 2010px;
+
+}
+
+.content h5 {
+    font-size: 45px;
+    letter-spacing: 3px;
+    color: white;
+
+}
+
+.content h4 {
+    color: white;
+    font-size: 70px;
+}
+
+.content h1 {
+    font-size: 39px;
+    color: #e3a227;
+}
+
+#abt {
+    text-align: center;
+    color: #e3a227;
+    font-size: 35px;
+    text-decoration: underline;
+    padding-top: 60px;
+}
+
+.about {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10px;
+}
+
+.image1 img {
+    width: 340px;
+    height: 400px;
+}
+
+.content-2 {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.content-2 h5{
+    color: white;
+    font-size: 25px;
+    text-transform: capitalize;  
+}
+.content-2 h4{
+    color: white;
+    font-size: 30px;
+    text-transform: capitalize; 
+}
+.content-2 p{
+    color: gray;
+    font-size: medium;
+}
+button {
+    width: 19%;
+    font-size: 15px;
+    border: 1px solid #e3a227;
+    height: 41px;
+    color: #e3a227;
+    background-color: transparent;
+}
+#btn1{
+    background-color: #e3a227;
+    color: white;
+}
+.services{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    /* justify-content: space-evenly; */
+    color: white;
+}
+.services h1{
+    color: #e3a227;
+    font-size: 24px;
+}
+.services p{
+    font-size: 19px
+}
+.creative{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 24px;
+}
